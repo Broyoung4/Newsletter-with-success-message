@@ -37,7 +37,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Live site URL](https://broyoung4.github.io/Newsletter-with-success-message/?)
 
 ## My process
 
@@ -65,8 +65,8 @@ const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/; // Regular expression for email vali
 ## Author
 
 - Website - [Adebayo Oladeji](https://www.github.com/broyoung4)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@Broyoung4](https://www.frontendmentor.io/profile/Broyoung4)
+- Twitter - [@broyoung4](https://x.com/broyoung4?s=21&t=3KdcJrVgTGAh_8bjJ3YWRA)
 
 
 
