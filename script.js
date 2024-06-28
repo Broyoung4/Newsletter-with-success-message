@@ -5,6 +5,13 @@ const emailAddress = document.querySelector('#email-address'); // show the email
 const successMessage = document.querySelector('#success-message'); // select the success message element
 const closeBtn = document.querySelector('#close-message'); // select the close button
 
+
+function openmodal() {
+  document.body.style.overflow = 'hidden';
+  successMessage.style.display = 'flex';
+}
+
+
 function validateEmail() {
   const email = emailInput.value;
   const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/; // Regular expression for email validation
@@ -12,7 +19,7 @@ function validateEmail() {
   if (regex.test(email)) {
     emailInput.style.borderColor = 'green'; // Valid email
     emailAddress.innerHTML = email; // Show the email address
-    successMessage.style.display = 'flex'; // Show the success message
+    openmodal();
   } else {
     emailInput.style.borderColor = 'red'; // Invalid email
     emailInput.style.backgroundColor = 'hsl(4, 100%, 67%)';
